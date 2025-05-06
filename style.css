@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
+/* Style reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+body {
+    margin: 0;
+}
+
 :root {
     /* Primary Colors */
     --color-primary-50: hsl(260, 100%, 95%);
