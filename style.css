@@ -128,21 +128,8 @@ img {
     gap: var(--spacing-50);
 }
 
+.white-narrow,
 .white-wide {
-    background-color: var(--color-neutral-white);
-
-    .text-preset-1,
-    .text-preset-2 {
-        color: var(--color-neutral-grey-500);
-    }
-
-    .text-preset-3,
-    .text-preset-4 {
-        color: var(--color-neutral-grey-400);
-    }
-}
-
-.white-narrow {
     background-color: var(--color-neutral-white);
 
     .text-preset-1,
