@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+    /* Primary Colors */
+    --color-primary-50: hsl(260, 100%, 95%);
+    --color-primary-300: hsl(264, 82%, 80%);
+    --color-primary-500: hsl(263, 55%, 52%);
+
+    /* Neutral Colors */
+    --color-neutral-black: hsl(0, 0%, 7%);
+    --color-neutral-dark-blue: hsl(219, 29%, 14%);
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --color-neutral-grey-100: hsl(214, 17%, 92%);
+    --color-neutral-grey-200: hsl(0, 0%, 81%);
+    --color-neutral-grey-400: hsl(224, 10%, 45%);
+    --color-neutral-grey-500: hsl(217, 19%, 35%);
+
+    /* Typography */
+    --font-family-body: 'Barlow Semi Condensed', sans-serif;
+    --font-size-body: 13px;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+
+    /* Spacing Variables */
+    --spacing-50: 4px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+}
+
+body {
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-body);
+    /* line-height: 1.5; */
+}
+
+.text-preset-1 {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight-semibold);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.text-preset-2 {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight-medium);
+    font-size: 1rem;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}
+
+.text-preset-3 {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight-medium);
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+.text-preset-4 {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight-medium);
+    font-size: 0.85rem;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-neutral-dark-blue);
+    font-weight: var(--font-weight-semibold);
+}
+
+a {
+    color: var(--color-primary-500);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
